@@ -1,0 +1,41 @@
+.third_section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttons{
+    border: none;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 5px;
+
+}
+.contents {
+    width: 25%;
+    display: grid;
+    align-items: center;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+.contents input {
+    height: 8vh;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    margin: 1vh;
+    background-color: aliceblue;
+    
+}
+.buttons button {
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(72, 205, 225);
+    border-radius: 5px;
+}
